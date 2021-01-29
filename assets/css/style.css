@@ -1,0 +1,33 @@
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+.container {
+    border: 3px solid blue;
+}
+.container-2 {
+    border: 3px solid rgb(179, 33, 154);
+}
+.cell-1{
+    border: 3px solid rgb(207, 52, 52);
+    width: 300px;
+    height: 500px;
+}
+.container-3 {
+    border: 3px solid rgb(111, 167, 21);
+}
+.container-4 {
+    border: 3px solid rgb(202, 183, 10);
+}
+.cell-2{
+    border: 3px solid rgb(32, 26, 26);
+}
+.cell-3{
+    border: 3px solid rgb(112, 43, 86);
+}
+.cell-4{
+    border: 3px solid rgb(10, 245, 245);
+}
+.cell-5{
+    border: 3px solid rgb(253, 5, 5);
+} 
