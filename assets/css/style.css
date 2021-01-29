@@ -1,33 +1,18 @@
-img {
-    width: 150px;
-    border-radius: 50%;
+
+.cell {
+    width: calc(100% / 3);
 }
 .container {
-    border: 3px solid blue;
+    height: 85vh;
 }
-.container-2 {
-    border: 3px solid rgb(179, 33, 154);
+.container-4, .cell-5 {
+    height: calc(100% / 2 - 0.5rem);
 }
-.cell-1{
-    border: 3px solid rgb(207, 52, 52);
-    width: 300px;
-    height: 500px;
+.cell-5>p {
+    text-align: justify;
 }
-.container-3 {
-    border: 3px solid rgb(111, 167, 21);
+.cell-1, .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.container-4 {
-    border: 3px solid rgb(202, 183, 10);
-}
-.cell-2{
-    border: 3px solid rgb(32, 26, 26);
-}
-.cell-3{
-    border: 3px solid rgb(112, 43, 86);
-}
-.cell-4{
-    border: 3px solid rgb(10, 245, 245);
-}
-.cell-5{
-    border: 3px solid rgb(253, 5, 5);
-} 
